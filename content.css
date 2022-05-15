@@ -28,7 +28,7 @@
     margin: 0.6rem;
 }
 
-#btnabt {
+/* #btnabt {
     border: 0.09rem solid rgb(0, 0, 0);
     border-radius: 0.5rem;
     display: block;
@@ -40,7 +40,11 @@
     font-weight: 500;
     background-color: rgb(248, 240, 255);
 }
-
+:hover{
+    border: 0.09rem solid rgb(0, 0, 0);
+    background-color: darkgrey;
+    color: whitesmoke;
+} */
 .services {
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -48,14 +52,14 @@
     flex-flow: row;
     height: 120vh;
     margin-top: 0.3rem;
-    background-color: blanchedalmond;
+    background-color: gainsboro;
     justify-content: space-around;
     height: 70vh;
 }
 .services .card {
     /* Add shadows to create the "card" effect */
     width: 25rem;
-    box-shadow: 0 4px 8px 0 rgba(24, 23, 23, 0.577);
+    
     transition: 0.3s;
     margin: 00.5rem;
     border: 1px solid black;
@@ -63,26 +67,44 @@
     flex-flow: column;
     align-items: center;
     justify-content: space-around;
+    background-color: ivory;
 }
   .card img{
       width: 18rem;
       height: 16rem;
-      background-color: white;
+      
   }
   /* On mouse-over, add a deeper shadow */
   .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0.1rem 0.1rem rgb(0, 0, 0);;
   }
   
   /* Add some padding inside the card container */
   .card .cardContainer {
-    padding: 2px 16px;
+    border-top: 00.01rem solid grey;
+    padding: 0.5rem 0.2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
   }
-
+ .button{
+    border: 0.09rem solid rgb(0, 0, 0);
+    border-radius: 0.5rem;
+    display: block;
+    width: 8rem;
+    margin: 1.4rem 2rem;
+    padding: 0.5rem;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(248, 240, 255);
+ }
+  .button:hover{
+    border: 0.09rem solid rgb(0, 0, 0);
+    background-color: darkgrey;
+    color: whitesmoke;
+ }
   .copyright{
       height: 8vh;
       width: 100%;
